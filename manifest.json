@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "I-Belive-In-Mikasa-Supremacy",
+  "version": "1.0",
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "Content.js"
+      ]
+    }
+  ],
+  "icons": {
+    "16": "images/16.png",
+    "32": "images/32.png",
+    "48": "images/48.png",
+    "128": "images/128.png"
+  }
+}
